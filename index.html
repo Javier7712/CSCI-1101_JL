@@ -1,32 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is my HTML website!</title>
+    <h2 id="intro">Hello, my name is Javier Leal</h2>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 
-<html>
-<meta>
-<title>This is my html website!</title>
 
-<h1>Welcome to my Website!</h1>
-<p>My name is Javier Leal and am currently 18 years old and a junior at UTRGV.</p>
+    <style>
+        
+        body {
+            background-color: rgb(213, 216, 218);
+            color: rgb(236, 11, 11);
+            font-family: Arial, sans-serif;
+            background-image: url('download.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+            background-blend-mode: overlay;
+            background-color: rgba(176, 220, 223, 0.8);
+        }
+        nav {
+            background-color: #181a18;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: rgb(190, 16, 224);
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        nav a:hover {
+            color: lightblue;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
 <body>
-    <h1>These are my top 3 things to do:</h1>
+    <nav>
+        <a href="#about">About Me</a> |
+        <a href="#hobbies">Hobbies</a> |
+        <a href="#anime">Favorite Animes</a> |
+        <a href="#video">Favorite Video</a>
+    </nav>
+
+    <h1>Welcome to my Website!</h1>
+    <p>My name is Javier Leal, and I am currently 18 years old and a junior at UTRGV.</p>
+
+    <h2 id="hobbies">These are my top 3 things to do:</h2>
     <ol>
         <li>Working out</li>
         <li>Going out with friends</li>
         <li>Enjoying my time in Uni</li>
-
     </ol>
 
-    <h2>These are my top 3 animes that I have washed:</h2>
+    <h2 id="anime">These are my top 3 animes that I have watched:</h2>
     <ul>
-        <li>Jujustu kaisen has to be my favorite</li>
+        <li>Jujutsu Kaisen has to be my favorite</li>
         <li>Haikyu is a sport one that I also really liked</li>
-        <li>Dragon Ball is one that I grew up with that I have always liked</li>
+        <li>Dragon Ball is one that I grew up with and have always liked</li>
     </ul>
 
-    This is my favorite video: 
-    <a href="https://youtu.be/dQw4w9WgXcQ?si=0aBoQkpcgZGoYRQu">This is the link</a>
+    <h2>Fun Facts About Me</h2>
+    <ul class="fun-facts">
+        <li>🏋️‍♂️ I can lift over 200 pounds!</li>
+        <li>🏐 I'm a huge fan of volleyball thanks to Haikyu!!</li>
+        <li>💻 Computer science is my passion and career path.</li>
+    </ul>
+    
 
-    <img src="download.jpg" width="250px" height= "250px">
+    <h2 id="video">This is my favorite video:</h2>
+    <p>
+        <a href="https://youtu.be/dQw4w9WgXcQ?si=0aBoQkpcgZGoYRQu" target="_blank">This is the link</a>
+    </p>
 
 
+    <img src="download.jpg" width="250px" height="250px" alt="Sample Image">
+
+
+    <footer>
+        <p>Created by Javier Leal | © 2024</p>
+    </footer>
+</body>
 </html>
